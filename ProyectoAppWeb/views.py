@@ -6,7 +6,7 @@ from django.shortcuts import render, HttpResponse
 
 
 def home(request):
-    return HttpResponse("Home")
+    return render(request, "ProyectoAppWeb/template/home.html")
 
 
 def servicios(request):
