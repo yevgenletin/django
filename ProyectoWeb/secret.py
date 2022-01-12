@@ -1,0 +1,1 @@
+SECRET = 'django-insecure-qt*sf^*gjqvr*o98_n+^s@c-i&+1u*r%yh)-s@c#quyn)*=-wd'
