@@ -1,16 +1,12 @@
 from django.shortcuts import render
 from django.shortcuts import render, HttpResponse
+from servicios.models import Servicios
 
 
 # Create your views here.
 
-
 def home(request):
     return render(request, "home.html")
-
-
-def servicios(request):
-    return render(request, "servicios.html")
 
 
 def tienda(request):
@@ -23,4 +19,3 @@ def blog(request):
 
 def contacto(request):
     return render(request, "contacto.html")
-
